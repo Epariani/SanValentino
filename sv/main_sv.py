@@ -12,8 +12,8 @@ def get_max(lista):
 
 
 st.title("Che tipo sei? - ***S. Valentino Edition***")
-df = pd.read_csv("domande.csv")
-risposte = pd.read_csv("risposte.csv")
+df = pd.read_csv("./sv/domande.csv")
+risposte = pd.read_csv("./sv/risposte.csv")
 risposta = [0, 0, 0, 0, 0, 0, 0, 0]
 for i in range(8):
     st.write(i + 1)
